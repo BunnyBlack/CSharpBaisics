@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace CSharpBaisics
+namespace HelloWorld
 {
     internal class Program
     {
