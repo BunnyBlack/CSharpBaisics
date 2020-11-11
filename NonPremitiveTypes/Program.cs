@@ -3,6 +3,12 @@ using NonPremitiveTypes.Math;
 
 namespace NonPremitiveTypes
 {
+    public enum ShippingMethod
+    {
+        RegularAirMail = 0,
+        RegisteredAirMail = 1,
+        Express = 2
+    }
     internal class Program
     {
         public static void Main(string[] args)
@@ -29,6 +35,13 @@ namespace NonPremitiveTypes
             Console.WriteLine(flags[2]);
 
             var name = new string[3] {"Jack", "John", "Mary"};
+
+            var method = ShippingMethod.Express;
+            Console.WriteLine(method);
+            Console.WriteLine((ShippingMethod)method);
+            Console.WriteLine((int)method);
+            Console.WriteLine(method.ToString());
+            
         }
     }
 }
