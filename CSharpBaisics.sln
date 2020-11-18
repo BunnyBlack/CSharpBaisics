@@ -8,6 +8,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NonPremitiveTypes", "NonPre
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ControlFlow", "ControlFlow\ControlFlow.csproj", "{5CD3BAEF-A0BC-4561-83E4-B6376C390C37}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArraysAndLists", "ArraysAndLists\ArraysAndLists.csproj", "{1E7C48E3-58E3-480B-A8E4-F63D777E24A6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,5 +32,9 @@ Global
 		{5CD3BAEF-A0BC-4561-83E4-B6376C390C37}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5CD3BAEF-A0BC-4561-83E4-B6376C390C37}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5CD3BAEF-A0BC-4561-83E4-B6376C390C37}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E7C48E3-58E3-480B-A8E4-F63D777E24A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E7C48E3-58E3-480B-A8E4-F63D777E24A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E7C48E3-58E3-480B-A8E4-F63D777E24A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E7C48E3-58E3-480B-A8E4-F63D777E24A6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
