@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Linq;
 
 namespace ControlFlow
 {
@@ -54,7 +56,7 @@ namespace ControlFlow
             }
             else
             {
-                float overSpeed = (float)((float)speed - (float)speedLimit);
+                float overSpeed = (float) ((float) speed - (float) speedLimit);
                 int Quotient = (int) Math.Ceiling(overSpeed / 5);
                 if (Quotient > 12)
                 {
@@ -65,6 +67,97 @@ namespace ControlFlow
                     Console.WriteLine(string.Format("Demerit point is {0}", Quotient));
                 }
             }
+        }
+
+        public static void Exercise49_1()
+        {
+            var count = 0;
+            for (var i = 1; i <= 100; i++)
+            {
+                if (i % 3 == 0)
+                {
+                    count++;
+                }
+            }
+
+            Console.WriteLine(count);
+        }
+
+        public static void Exercise49_2()
+        {
+            var count = 0;
+            Console.WriteLine("Please enter numbers to calculate sum and enter \"ok\" to exit:");
+            while (true)
+            {
+                var readLine = Console.ReadLine();
+                if (readLine == "ok")
+                {
+                    break;
+                }
+                else
+                {
+                    count += Convert.ToInt32(readLine);
+                }
+            }
+
+            Console.WriteLine(count);
+        }
+
+        public static void Exercise49_3()
+        {
+            var number = 0;
+            var factorial = 1;
+            Console.WriteLine("Please enter a number:");
+            number = Convert.ToInt32(Console.ReadLine());
+            for (var i = 1; i < number + 1; i++)
+            {
+                factorial *= i;
+            }
+
+            if (number == 0)
+            {
+                factorial = 1;
+            }
+
+            Console.WriteLine(string.Format("{0}! = {1}", number, factorial));
+        }
+
+        public static void Exercise49_4()
+        {
+            var random = new Random();
+            var number = random.Next(1, 10);
+            var chance = 4;
+            var flag = false;
+            for (var i = 0; i < chance; i++)
+            {
+                int input = 0;
+                Console.WriteLine("Please guess:");
+                input = Convert.ToInt32(Console.ReadLine());
+                if (input == number)
+                {
+                    flag = true;
+                    break;
+                }
+            }
+
+            Console.WriteLine(flag?"You won":"You lost");
+            Console.WriteLine(string.Format("The number is {0}", number));
+        }
+
+        public static void Exercise49_5()
+        {
+            Console.WriteLine("Enter a series of numbers separated with comma:");
+            var input = Console.ReadLine();
+
+            var strList = input.Split(',');
+            var resultList = new List<int>();
+            foreach (var str in strList)
+            {
+                var number = Convert.ToInt32(str);
+                resultList.Add(number);
+            }
+
+            Console.WriteLine(resultList.Max());
         }
     }
 }

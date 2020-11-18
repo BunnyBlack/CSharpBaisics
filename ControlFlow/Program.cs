@@ -23,6 +23,16 @@ namespace ControlFlow
             // Exercises.Exercise43_3();
             
             // Exercises.Exercise43_4();
+            
+            // Exercises.Exercise49_1();
+            
+            // Exercises.Exercise49_2();
+            
+            // Exercises.Exercise49_3();
+            
+            // Exercises.Exercise49_4();
+            
+            // Exercises.Exercise49_5();
         }
 
         public static void RandomClass()
