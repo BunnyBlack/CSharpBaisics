@@ -11,6 +11,18 @@ namespace ArraysAndLists
             // ArrayMethod();
 
             // ListMethod();
+            
+            // Exercises.Exercise56_1();
+            
+            // Exercises.Exercise56_2();
+            
+            // Exercises.Exercise56_3();
+            
+            // Exercises.Exercise56_4();
+            
+            // Exercises.Exercise56_5();
+            
+            
         }
 
 
