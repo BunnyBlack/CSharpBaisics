@@ -17,9 +17,11 @@ namespace WorkingWithText
             
             // Exercises.Exercise68_2();
             
+            // Exercises.Exercise68_3();
             
+            // Exercises.Exercise68_4();
             
-            
+            // Exercises.Exercise68_5();
         }
 
         public static void StringBuilderMethod()
