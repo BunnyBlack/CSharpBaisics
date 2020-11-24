@@ -13,7 +13,9 @@ namespace WorkingWithFiles
 
             // PathMethod();
             
+            // Exercises.Exercise76_1();
             
+            // Exercises.Exercise76_2();
             
         }
 
@@ -75,5 +77,7 @@ namespace WorkingWithFiles
                 Console.WriteLine(tempfileInfo);
             }
         }
+        
+        
     }
 }
